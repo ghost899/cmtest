@@ -1,0 +1,335 @@
+<html lang="ko">
+<head>
+<title>사이버메드</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<style type="text/css">
+* {margin:0;padding:0;}
+a {text-decoration:none;}
+#inner {width:1200px;margin:0 auto;}
+header {padding: 25px 0;}
+header .header_cont {box-sizing: border-box;padding:0 20px;font-size: 32px;}
+h1 {font-size:30px;line-height:34px;}
+h2 {padding: 10px 30px;font-size:15px;border-bottom:none;background:#004e96;color:#fff;}
+caption {display:none;}
+.table_wrap {border-top:1px solid #444;margin-bottom: 20px;}
+table {border-collapse:collapse;width:100%;border-spacing:0;}
+table thead th {padding:8px 8px;border:1px solid #ddd;background:#e4edff;font-size:13px;}
+table tbody td {padding:8px 8px;border:1px solid #ddd;text-align:center;color:#222;font-size:13px;word-break:keep-all;}
+table tbody td:last-child {text-align: left; padding-left: 20px; box-sizing: border-box;}
+table tbody tr:hover td {background: #f2f2f2;}
+.red {color: #dd0000;}
+</style>
+<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+
+<link type="text/css" rel="stylesheet" href="chrome-extension://eobejphpabbjeehffmbiecckpkggpbai/style.css">
+<script type="text/javascript" charset="utf-8" src="chrome-extension://eobejphpabbjeehffmbiecckpkggpbai/js/content-script/page_context.js"></script>
+</head>
+
+<body>
+
+<div id="inner" style="margin-bottom:100px;">
+ 	<header>
+  	<div class="header_cont">
+  		<h1>사이버메드</h1>
+        <p style="line-height:1;font-size:14px;font-weight:bold;text-align:right;">UPDATE : 2020-12-02</p>
+	  </div>
+	</header>
+
+    <div class="table_wrap">
+    	<h2 id="main">Manager</h2>
+    	<table>
+    		<caption></caption>
+    		<colgroup>
+    			<col style="width:10%;">
+    			<col style="width:10%;">
+    			<col style="width:10%;">
+    			<col style="width:10%;">
+    			<col style="width:22%;">
+    			<col style="width:10%;">
+    			<col style="width:30%;">
+    		</colgroup>
+    		<thead>
+    			<tr>
+    				<th>1 Depth</th>
+    				<th>2 Depth</th>
+    				<th>3 Depth</th>
+    				<th>Etc.</th>
+    				<th>URL</th>
+    				<th>Date</th>
+    				<th>비고</th>
+    			</tr>
+    		</thead>
+    		<tbody>
+      		<tr class="add">
+      			<td>관리자</td>
+      			<td></td>
+      			<td></td>
+      			<td></td>
+      			<td class="url"><a href="" target="_blank"></a></td>
+      			<td></td>
+      			<td><span class="red">- 메인비주얼 변경기능<br>- 팝업등록기능<br>- 관리자 비밀번호 변경 기능<br>- 관리자 winko / winkorea 등록 요청</span></td>
+      		</tr>
+    		</tbody>
+    	</table>
+    </div>
+
+    <div class="table_wrap">
+	<h2 id="main">MAIN</h2>
+	<table>
+		<caption></caption>
+		<colgroup>
+            <col style="width:10%;">
+            <col style="width:10%;">
+            <col style="width:10%;">
+            <col style="width:10%;">
+            <col style="width:22%;">
+            <col style="width:10%;">
+            <col style="width:30%;">
+		</colgroup>
+		<thead>
+			<tr>
+				<th>1 Depth</th>
+				<th>2 Depth</th>
+				<th>3 Depth</th>
+				<th>Etc.</th>
+				<th>URL</th>
+				<th>Date</th>
+				<th>비고</th>
+			</tr>
+		</thead>
+		<tbody>
+  		<tr class="add">
+  			<td>MAIN</td>
+  			<td></td>
+  			<td></td>
+  			<td></td>
+  			<td class="url"><a href="./index.html" target="_blank"></a></td>
+  			<td>2020-10-08</td>
+  			<td><span class="red"></span></td>
+  		</tr>
+		</tbody>
+	</table>
+	</div>
+
+	<div class="table_wrap">
+	<h2 id="sub">SUB</h2>
+	<table>
+		<caption></caption>
+		<colgroup>
+            <col style="width:10%;">
+            <col style="width:10%;">
+            <col style="width:10%;">
+            <col style="width:10%;">
+            <col style="width:22%;">
+            <col style="width:10%;">
+            <col style="width:30%;">
+		</colgroup>
+		<thead>
+			<tr>
+				<th>1 Depth</th>
+				<th>2 Depth</th>
+				<th>3 Depth</th>
+				<th>Etc.</th>
+				<th>URL</th>
+				<th>Date</th>
+				<th>비고</th>
+			</tr>
+		</thead>
+		<tbody>
+            <tr class="add">
+				<td>Company</td>
+				<td>R&amp;D</td>
+				<td></td>
+				<td></td>
+				<td class="url"><a href="./company/rnd.php" target="_blank"></a></td>
+				<td>2020-10-07</td>
+				<td><span class="red"></span></td>
+			</tr>
+            <tr class="add">
+				<td>Company</td>
+				<td>history</td>
+				<td></td>
+				<td></td>
+				<td class="url"><a href="./company/history.php" target="_blank"></a></td>
+				<td>2020-10-07</td>
+				<td><span class="red"></span></td>
+			</tr>
+            <tr class="add">
+				<td>Company</td>
+				<td>R&amp;D</td>
+				<td></td>
+				<td></td>
+				<td class="url"><a href="./company/rnd.php" target="_blank"></a></td>
+				<td>2020-10-07</td>
+				<td><span class="red"></span></td>
+			</tr>
+            <tr class="add">
+				<td>Product</td>
+				<td>OnDemand3D</td>
+				<td>intro</td>
+				<td></td>
+				<td class="url"><a href="./product/od3d.php" target="_blank"></a></td>
+				<td>2020-10-07</td>
+				<td><span class="red"></span></td>
+			</tr>
+            <tr class="add">
+				<td>Product</td>
+				<td>OnDemand3D</td>
+				<td>downloads</td>
+				<td></td>
+				<td class="url"><a href="./product/downloads.php" target="_blank"></a></td>
+				<td>2020-10-07</td>
+				<td><span class="red"></span></td>
+			</tr>
+            <tr class="add">
+				<td>Product</td>
+				<td>Core1 Implant</td>
+				<td>Core1 Implant</td>
+				<td></td>
+				<td class="url"><a href="./product/c1implant.php" target="_blank"></a></td>
+				<td>2020-10-07</td>
+				<td><span class="red"></span></td>
+			</tr>
+            <tr class="add">
+				<td>Product</td>
+				<td>Core1 Implant</td>
+				<td>Digital Implant</td>
+				<td></td>
+				<td class="url"><a href="./product/d_implant.php" target="_blank"></a></td>
+				<td>2020-10-07</td>
+				<td><span class="red"></span></td>
+			</tr>
+            <tr class="add">
+				<td>Product</td>
+				<td>Core1 Implant</td>
+				<td>Surgical KIT</td>
+				<td></td>
+				<td class="url"><a href="./product/s_kit.php" target="_blank"></a></td>
+				<td>2020-10-07</td>
+				<td><span class="red"></span></td>
+			</tr>
+            <tr class="add">
+				<td>Product</td>
+				<td>Digital Dental Solution</td>
+				<td></td>
+				<td></td>
+				<td class="url"><a href="./product/dds.php" target="_blank"></a></td>
+				<td>2020-10-07</td>
+				<td><span class="red"></span></td>
+			</tr>
+            <tr class="add">
+				<td>Community</td>
+				<td>News</td>
+				<td></td>
+				<td></td>
+				<td class="url"><a href="./community/news.php" target="_blank"></a></td>
+				<td>2020-10-07</td>
+				<td><span class="red">개발</span></td>
+			</tr>
+            <tr class="add">
+				<td>Community</td>
+				<td>News</td>
+				<td>view</td>
+				<td></td>
+				<td class="url"><a href="./community/news-view.php" target="_blank"></a></td>
+				<td>2020-10-07</td>
+				<td><span class="red">개발</span></td>
+			</tr>
+            <tr class="add">
+				<td>Community</td>
+				<td>Seminar and Tutorials</td>
+				<td></td>
+				<td></td>
+				<td class="url"><a href="./community/sat.php" target="_blank"></a></td>
+				<td>2020-10-07</td>
+				<td><span class="red">개발</span></td>
+			</tr>
+            <tr class="add">
+				<td>Community</td>
+				<td>Seminar and Tutorials</td>
+				<td>view</td>
+				<td></td>
+				<td class="url"><a href="./community/sat-view.php" target="_blank"></a></td>
+				<td>2020-10-07</td>
+				<td><span class="red">개발</span></td>
+			</tr>
+            <tr class="add">
+                <td>For Our Customers</td>
+                <td>Support</td>
+                <td></td>
+                <td></td>
+                <td class="url"><a href="./customers/support.php" target="_blank"></a></td>
+                <td>2020-10-07</td>
+                <td><span class="red">문의제품 선택에 따라 보내지는 메일 주소<br>1) OnDemand3D : international@cybermed.co.kr<br>2) CORE1 : sales@cybermed.co.kr<br>3) 3D Printer : 3dsupport@cybermed.co.kr</span></td>
+            </tr>
+            <tr class="add">
+                <td>For Our Customers</td>
+                <td>FAQ</td>
+                <td>Genaral</td>
+                <td></td>
+                <td class="url"><a href="./customers/faq_gen.php" target="_blank"></a></td>
+                <td>2020-10-07</td>
+                <td><span class="red"></span></td>
+            </tr>
+            <tr class="add">
+                <td>For Our Customers</td>
+                <td>FAQ</td>
+                <td>Functionally/Usability</td>
+                <td></td>
+                <td class="url"><a href="./customers/faq_ub.php" target="_blank"></a></td>
+                <td>2020-10-07</td>
+                <td><span class="red"></span></td>
+            </tr>
+            <tr class="add">
+                <td>For Our Customers</td>
+                <td>FAQ</td>
+                <td>TroubleShooting</td>
+                <td></td>
+                <td class="url"><a href="./customers/faq_ts.php" target="_blank"></a></td>
+                <td>2020-10-07</td>
+                <td><span class="red"></span></td>
+            </tr>
+            <tr class="add">
+                <td>For Our Customers</td>
+                <td>Become a Partner</td>
+                <td></td>
+                <td></td>
+                <td class="url"><a href="./customers/partner.php" target="_blank"></a></td>
+                <td>2020-10-07</td>
+                <td><span class="red">개발</span></td>
+            </tr>
+            <tr class="add">
+                <td>For Our Customers</td>
+                <td>Contact Us</td>
+                <td></td>
+                <td></td>
+                <td class="url"><a href="./customers/contact_us.php" target="_blank"></a></td>
+                <td>2020-10-07</td>
+                <td><span class="red"></span></td>
+            </tr>
+            <tr class="add">
+                <td>ETC</td>
+                <td>Privacy Policy</td>
+                <td></td>
+                <td></td>
+                <td class="url"><a href="./etc/privacy.php" target="_blank"></a></td>
+                <td>2020-10-07</td>
+                <td><span class="red"></span></td>
+            </tr>
+		</tbody>
+	</table>
+	</div>
+
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.url').each(function(){
+		var url = $(this).find('a').attr('href')
+		$(this).find('a').text(url);
+	})
+})
+</script>
+</body>
+</html>
